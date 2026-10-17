@@ -30,7 +30,7 @@ nav {
 }
 
 .logo{
-     color: #C9A66B;
+    color: #C9A66B;
     font-family: Georgia, serif;
     font-size: 20px;
     letter-spacing: 2px;
@@ -46,4 +46,27 @@ nav {
     padding: 20px;
     border: none;
 
+}
+
+/*background color for website*/
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #000000;
+}
+
+/*style for footer*/
+.logo1 {
+     color: #C9A66B;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 1.3;
+    margin: 0;
+    text-align: left;
+}
+
+.fsentence {
+    color: #C9A66B;
 }
