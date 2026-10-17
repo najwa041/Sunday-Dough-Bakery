@@ -4,7 +4,6 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 20px 40px;
-    background-color: #080805;
     border-bottom: 1px solid #806943;
     box-sizing: border-box;
 }
@@ -52,13 +51,80 @@ nav {
 html, body {
   margin: 0;
   padding: 0;
-  height: 100%;
+  min-height: 100%;
   background-color: #000000;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+
+
+/*style for Home website*/
+.homeA{
+    background-image: url(bread3.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    box-sizing: border-box;
+    padding-top: 40px;
+}
+
+.homeB {
+    margin-left: 500px;
+    margin-top: 69px;
+    text-align: center;
+    width: 380px;
+    
+}
+.home-h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: #ec9c40;
+    
+}
+
+.homeB p{
+    color: #ec9c40;
+    font-style: italic;
+    font-family: cursive;
+}
+
+.buttonhome {
+    color: #20190d;
+    text-decoration: none;
+    font-family: Georgia, serif;
+    font-size: 15px;
+    border: 1px solid #d8af67;
+    border-radius: 30px;
+    padding: 2px 17px;
+    display: inline-block;
+    background: #ce924e;
+}
+
+
+    
+
 /*style for footer*/
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+    border-top: 1px solid #806943;
+    box-sizing: border-box;
+    background-color: #080805;
+}
+
 .logo1 {
-     color: #C9A66B;
+    color: #C9A66B;
     font-family: Georgia, serif;
     font-size: 20px;
     letter-spacing: 2px;
@@ -69,4 +135,11 @@ html, body {
 
 .fsentence {
     color: #C9A66B;
+    font-family: Georgia, serif;
+    font-size: 12px;
+    text-align: right;
+}
+
+.fsentence p {
+    margin: 5px 0;
 }
