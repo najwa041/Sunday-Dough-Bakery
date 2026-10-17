@@ -21,7 +21,30 @@
         
         <!--for the SUBMITE-RECIPE part-->
         <main>
-            
+            <h2>Submite Your Recipe</h2>
+            <form>
+                <label for="yourname">Your Name:</label><br>
+                <input type="text" id="yourname" name="yourname"/><br>
+                <label for="recipename">Recipe Name</label><br>
+                <input type="text" id="recipename" name="recipename"/><br>
+                <label for="category">Recipe Category:</label><br>
+                    <select name="category" id="category">
+                    <option value="toyota">Cookies</option>
+                    <option value="honda">Cakes</option>
+                    <option value="mercedes">Breads</option>
+                    <option value="bmw">Pastries</option>
+                    <option value="mercedes">Sweet Rolls</option>
+                    <option value="bmw">Muffins & Cupcakes</option>
+                    </select><br>
+                <label for="ingredients">Ingredients:</label><br>
+                <textarea id="ingredients" name="ingredients" rows="10" cols="50"></textarea><br>
+                <label for="instruction">Instruction: </label><br>
+                <textarea id="instruction" name="instruction" rows="15" cols="50"></textarea><br>
+                <button type="submit" class="buttonsubmit">Submit Recipe</button>
+
+
+
+            </form>
         </main>
         
         <!--for the footer part-->
