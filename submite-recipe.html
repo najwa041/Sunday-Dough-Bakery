@@ -20,13 +20,15 @@
         </nav>
         
         <!--for the SUBMITE-RECIPE part-->
-        <main>
-            <h2>Submite Your Recipe</h2>
+        <main class="submitrecipe">
+            <h2 class="sharerecipe">Submite Your Recipe</h2>
+            <p class="aftershare">Share your homemade favorites with our community.</p>
+            <div class="form">
             <form>
                 <label for="yourname">Your Name:</label><br>
-                <input type="text" id="yourname" name="yourname"/><br>
+                <input type="text" id="yourname" name="yourname"/><br><br>
                 <label for="recipename">Recipe Name</label><br>
-                <input type="text" id="recipename" name="recipename"/><br>
+                <input type="text" id="recipename" name="recipename"/><br><br>
                 <label for="category">Recipe Category:</label><br>
                     <select name="category" id="category">
                     <option value="toyota">Cookies</option>
@@ -35,16 +37,17 @@
                     <option value="bmw">Pastries</option>
                     <option value="mercedes">Sweet Rolls</option>
                     <option value="bmw">Muffins & Cupcakes</option>
-                    </select><br>
+                    </select><br><br>
                 <label for="ingredients">Ingredients:</label><br>
-                <textarea id="ingredients" name="ingredients" rows="10" cols="50"></textarea><br>
+                <textarea id="ingredients" name="ingredients" rows="10" cols="50"></textarea><br><br>
                 <label for="instruction">Instruction: </label><br>
-                <textarea id="instruction" name="instruction" rows="15" cols="50"></textarea><br>
-                <button type="submit" class="buttonsubmit">Submit Recipe</button>
+                <textarea id="instruction" name="instruction" rows="15" cols="50"></textarea><br><br>
+                <button type="submit" class="buttonsubmit">Submit Recipe →</button>
 
 
 
             </form>
+            </div>
         </main>
         
         <!--for the footer part-->
